@@ -27,7 +27,7 @@
               <FormKit type="number" name="altura" label="Altura" validation="required|numeric" v-mask="'###.##'" />
             </div>
             <div class="formkit-item">
-              <FormKit type="number" name="peso" label="Peso (em kg)" validation="required|numeric" v-mask="'##.##'" />
+              <FormKit type="number" name="peso" label="Peso (em kg)" validation="required|numeric" v-mask="'###.##'" />
             </div>
             <div class="formkit-item">
               <FormKit type="textarea" name="sintomas" label="Sintomas" validation="required" />
