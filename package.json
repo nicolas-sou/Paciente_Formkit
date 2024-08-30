@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@formkit/nuxt": "^1.6.5",
+    "@formkit/pro": "^0.127.0",
+    "@formkit/vue": "^1.6.5",
+    "@formkit/zod": "^1.6.5",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-the-mask": "^0.11.1",
+    "zod": "^3.23.8"
+  }
+}
