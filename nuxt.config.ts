@@ -5,10 +5,10 @@ export default defineNuxtConfig({
     '@formkit/nuxt'
   ],
   css: [
-    '~/assets/global.css' // Caminho para o arquivo CSS global
+    '~/assets/global.css' 
   ],
   plugins: [
-    '~/plugins/the-mask.ts', // Se estiver usando TypeScript, ou ~/plugins/the-mask.js para JavaScript
+    '~/plugins/the-mask.ts',
   ],
 
   compatibilityDate: '2024-08-29',
